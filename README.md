@@ -1,1 +1,2 @@
-# -Lead-Allocation-to-oGV-
+# Lead-Allocation-to-oGV
+The "Allocation Leads to oGV Dep" script automates the process of copying potential leads to a designated spreadsheet for opportunities related to the oGV program. It accesses data from a specified sheet and identifies leads marked as "oGV" in a particular column. For each identified lead, it checks if the lead already exists in the target spreadsheet by matching name and phone number. If not found, it appends relevant lead information such as name, email, phone, faculty, field of study, and level of study to the oGV Leads sheet, ensuring no duplicates are added. The script logs each successful copy operation and handles empty rows efficiently to maintain data integrity.
